@@ -381,6 +381,19 @@
     letter-spacing: 0.05em;
   }
 
+  /* ── HEADSHOT ── */
+  .headshot {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center top;
+    border: 3px solid var(--blue-100);
+    box-shadow: 0 4px 20px rgba(26,95,168,0.12);
+    display: block;
+    margin-bottom: 1.5rem;
+  }
+
   /* ── CONTACT ── */
   #contact { padding: 5rem 0; }
   .contact-inner {
@@ -470,18 +483,19 @@
   <div class="container">
     <div class="hero-inner">
       <div>
-        <p class="hero-eyebrow fade-up d1">Richmond, Virginia</p>
-        <h1 class="hero-name fade-up d2">Senior<br>Technical<br><em>Project Manager</em></h1>
-        <div class="hero-credentials fade-up d3">
+        <img src="large_headshot.jpg" alt="Alsten E. Tauro" class="headshot fade-up d1">
+        <p class="hero-eyebrow fade-up d2">Richmond, Virginia</p>
+        <h1 class="hero-name fade-up d3">Senior<br>Technical<br><em>Project Manager</em></h1>
+        <div class="hero-credentials fade-up d4">
           <span class="cred-pill">PMP</span>
           <span class="cred-pill">CSM</span>
           <span class="cred-pill">Microsoft AI-900</span>
         </div>
-        <p class="hero-desc fade-up d4">
+        <p class="hero-desc fade-up d5">
           11+ years delivering enterprise technology across healthcare, manufacturing, legal tech, and consulting. Expert in ERP &amp; EHR implementations, M&amp;A integrations, and AI-augmented project execution.
         </p>
       </div>
-      <div class="hero-stats fade-up d5">
+      <div class="hero-stats fade-up d6">
         <div class="stat-card">
           <span class="stat-label">Revenue delivered</span>
           <span class="stat-value">$1.5M</span>
